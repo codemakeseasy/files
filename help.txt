@@ -1,2 +1,5 @@
 
-************ This is a test file ***************
+@echo off
+cls
+
+powershell.exe -nologo -executionpolicy bypass -noprofile -file C:\Users\Zahir\Documents\HD1\codes\powershell\remoteTask\2ndphase.ps1 > .\Debug.txt
